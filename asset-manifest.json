@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/soojeongHan/react-Book-Management-System/static/css/main.b34bf6d3.chunk.css",
+    "main.js": "/soojeongHan/react-Book-Management-System/static/js/main.4825024a.chunk.js",
+    "main.js.map": "/soojeongHan/react-Book-Management-System/static/js/main.4825024a.chunk.js.map",
+    "runtime-main.js": "/soojeongHan/react-Book-Management-System/static/js/runtime-main.b93e018f.js",
+    "runtime-main.js.map": "/soojeongHan/react-Book-Management-System/static/js/runtime-main.b93e018f.js.map",
+    "static/css/2.405d60bc.chunk.css": "/soojeongHan/react-Book-Management-System/static/css/2.405d60bc.chunk.css",
+    "static/js/2.03a58970.chunk.js": "/soojeongHan/react-Book-Management-System/static/js/2.03a58970.chunk.js",
+    "static/js/2.03a58970.chunk.js.map": "/soojeongHan/react-Book-Management-System/static/js/2.03a58970.chunk.js.map",
+    "index.html": "/soojeongHan/react-Book-Management-System/index.html",
+    "precache-manifest.fdc763f0f8e80769a08188a0b5fb3972.js": "/soojeongHan/react-Book-Management-System/precache-manifest.fdc763f0f8e80769a08188a0b5fb3972.js",
+    "service-worker.js": "/soojeongHan/react-Book-Management-System/service-worker.js",
+    "static/css/2.405d60bc.chunk.css.map": "/soojeongHan/react-Book-Management-System/static/css/2.405d60bc.chunk.css.map",
+    "static/css/main.b34bf6d3.chunk.css.map": "/soojeongHan/react-Book-Management-System/static/css/main.b34bf6d3.chunk.css.map",
+    "static/js/2.03a58970.chunk.js.LICENSE.txt": "/soojeongHan/react-Book-Management-System/static/js/2.03a58970.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.b93e018f.js",
+    "static/css/2.405d60bc.chunk.css",
+    "static/js/2.03a58970.chunk.js",
+    "static/css/main.b34bf6d3.chunk.css",
+    "static/js/main.4825024a.chunk.js"
+  ]
+}
