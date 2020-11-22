@@ -43,7 +43,7 @@ const Books: React.FC<BooksProps> = ({ books, loading, goAdd, logout, goDetail, 
           </Button>,
         ]}
       />
-      <img src="/bg_list.png" style={{ width: '100%' }} alt="books" />
+      <img src="https://user-images.githubusercontent.com/49259666/99894872-21fa4d80-2cca-11eb-8159-d8ca7ff2fd4d.png" style={{ width: '100%' }} alt="books" />
       
       <Table
         dataSource={books || []}

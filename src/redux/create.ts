@@ -11,7 +11,7 @@ import TokenService from '../services/TokenService';
 import { persistStore, persistReducer } from 'redux-persist';
 import storage from 'redux-persist/lib/storage';
 
-export const history = createBrowserHistory();
+export const history = createBrowserHistory({basename: process.env.PUBLIC_URL});
 const sagaMiddleware = createSagaMiddleware();
 
 const create = () => {

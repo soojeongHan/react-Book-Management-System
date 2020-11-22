@@ -36,7 +36,7 @@ const Signin: React.FC<SigninProps> = ({ loading, login, error }) => {
           <Row className={styles.signin_contents}>
             <Col span={12}>
               <img
-                src="/bg_signin.png"
+                src="https://user-images.githubusercontent.com/49259666/99894873-2292e400-2cca-11eb-8b40-9901fcbc16e9.png"
                 alt="Signin"
                 className={styles.signin_bg}
               />

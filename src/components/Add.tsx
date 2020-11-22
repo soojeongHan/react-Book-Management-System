@@ -43,7 +43,7 @@ const Add: React.FC<AddProps> = ({ loading, logout, onGoBack, addBook }) => {
         ]}
       />
 
-      <img src="/bg_list.png" className={styles.bg} alt="books" />
+      <img src="https://user-images.githubusercontent.com/49259666/99894872-21fa4d80-2cca-11eb-8159-d8ca7ff2fd4d.png" className={styles.bg} alt="books" />
 
       <div className={styles.add}>
         <div className={styles.input_title}>
