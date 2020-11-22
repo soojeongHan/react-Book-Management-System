@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/react-Book-Management-System/static/css/main.b34bf6d3.chunk.css",
-    "main.js": "/react-Book-Management-System/static/js/main.ba719380.chunk.js",
-    "main.js.map": "/react-Book-Management-System/static/js/main.ba719380.chunk.js.map",
+    "main.js": "/react-Book-Management-System/static/js/main.11bbadc5.chunk.js",
+    "main.js.map": "/react-Book-Management-System/static/js/main.11bbadc5.chunk.js.map",
     "runtime-main.js": "/react-Book-Management-System/static/js/runtime-main.2acb676f.js",
     "runtime-main.js.map": "/react-Book-Management-System/static/js/runtime-main.2acb676f.js.map",
     "static/css/2.405d60bc.chunk.css": "/react-Book-Management-System/static/css/2.405d60bc.chunk.css",
     "static/js/2.ce24b3a5.chunk.js": "/react-Book-Management-System/static/js/2.ce24b3a5.chunk.js",
     "static/js/2.ce24b3a5.chunk.js.map": "/react-Book-Management-System/static/js/2.ce24b3a5.chunk.js.map",
     "index.html": "/react-Book-Management-System/index.html",
-    "precache-manifest.70ed507d267d3c5440e6b4e498b35dc7.js": "/react-Book-Management-System/precache-manifest.70ed507d267d3c5440e6b4e498b35dc7.js",
+    "precache-manifest.3f1f027038a4a97bdcd37734a4e90f7e.js": "/react-Book-Management-System/precache-manifest.3f1f027038a4a97bdcd37734a4e90f7e.js",
     "service-worker.js": "/react-Book-Management-System/service-worker.js",
     "static/css/2.405d60bc.chunk.css.map": "/react-Book-Management-System/static/css/2.405d60bc.chunk.css.map",
     "static/css/main.b34bf6d3.chunk.css.map": "/react-Book-Management-System/static/css/main.b34bf6d3.chunk.css.map",
@@ -20,6 +20,6 @@
     "static/css/2.405d60bc.chunk.css",
     "static/js/2.ce24b3a5.chunk.js",
     "static/css/main.b34bf6d3.chunk.css",
-    "static/js/main.ba719380.chunk.js"
+    "static/js/main.11bbadc5.chunk.js"
   ]
 }
