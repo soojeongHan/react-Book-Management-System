@@ -9,17 +9,15 @@ import { BookResType } from '../types';
 interface BooksProps {
   books: BookResType[] | null;
   loading: boolean;
-  goAdd: () => void;
-  goDetail: (bookid: number) => void;
+  goAddPage: () => void;
+  goDetailPage: (bookid: number) => void;
   goEditPage: (bookid: number) => void;
   logout: () => void;
   goUrlPage: (url : string) => void;
   deleteBook: (bookId: number) => void;
 }
 
-// [project] 컨테이너에 작성된 함수를 컴포넌트에서 이용했다.
-// [project] BookResType 의 응답 값을 이용하여, List 컴포넌트의 키를 처리했다.
-const Books: React.FC<BooksProps> = ({ books, loading, goAdd, logout, goDetail, goEditPage, goUrlPage, deleteBook }) => {
+const Books: React.FC<BooksProps> = ({ books, loading, goAddPage, logout, goDetailPage, goEditPage, goUrlPage, deleteBook }) => {
   return (
     <Layout>
       <PageHeader
@@ -29,7 +27,7 @@ const Books: React.FC<BooksProps> = ({ books, loading, goAdd, logout, goDetail, 
             key="2"
             type="primary"
             className={styles.button}
-            onClick={goAdd}
+            onClick={goAddPage}
           >
             Add Book
           </Button>,
@@ -53,7 +51,7 @@ const Books: React.FC<BooksProps> = ({ books, loading, goAdd, logout, goDetail, 
             dataIndex: 'book',
             key: 'book',
             render: (text, record) => (
-              <Book {...record} key={'{record.bookId}'} goDetail={goDetail} goEditPage={goEditPage} goUrlPage={goUrlPage} deleteBook={deleteBook}/>
+              <Book {...record} key={'{record.bookId}'} goDetailPage={goDetailPage} goEditPage={goEditPage} goUrlPage={goUrlPage} deleteBook={deleteBook}/>
             ),
           },
         ]}

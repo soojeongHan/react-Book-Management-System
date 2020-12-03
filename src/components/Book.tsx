@@ -4,25 +4,23 @@ import styles from './Book.module.css';
 import { BookResType } from '../types';
 
 interface BookType extends BookResType {
-  goDetail: (bookid : number) => void;
+  goDetailPage: (bookid : number) => void;
   goEditPage: (bookid : number) => void;
   goUrlPage: (url : string) => void;
   deleteBook: (bookId : number) => void;
 }
 
-// [project] 컨테이너에 작성된 함수를 컴포넌트에서 이용했다.
-// [project] BookResType 의 응답 값을 이용하여, Book 컴포넌트를 완성했다.
-const Book: React.FC<BookType> = ({goDetail, goEditPage, goUrlPage, deleteBook ,...book}) => {
+const Book: React.FC<BookType> = ({goDetailPage, goEditPage, goUrlPage, deleteBook ,...book}) => {
   // Book의 updatedAt이 없으면, createdAt을 사용하여, 날짜를 표시한다.
   const date : Date | null = book.updatedAt ? (book.updatedAt ? new Date(book.updatedAt) : null) : (book.createdAt ? new Date(book.createdAt) : null);
   const displayDate : string = date ? ((date.getMonth()+1)+"-"+date.getDate()+"-"+date.getFullYear()+" "+date.getHours()%12+":"+date.getMinutes()+" "+(date.getHours() > 12 ? "PM" : "AM")) : "";
 
   return <div className={styles.book}>
-    <div className={styles.title} onClick={() => goDetail(book.bookId)}>
+    <div className={styles.title} onClick={() => goDetailPage(book.bookId)}>
       <svg viewBox="64 64 896 896" focusable="false" data-icon="book" width="1em" height="1em" fill="currentColor" aria-hidden="true"><path d="M832 64H192c-17.7 0-32 14.3-32 32v832c0 17.7 14.3 32 32 32h640c17.7 0 32-14.3 32-32V96c0-17.7-14.3-32-32-32zm-260 72h96v209.9L621.5 312 572 347.4V136zm220 752H232V136h280v296.9c0 3.3 1 6.6 3 9.3a15.9 15.9 0 0022.3 3.7l83.8-59.9 81.4 59.4c2.7 2 6 3.1 9.4 3.1 8.8 0 16-7.2 16-16V136h64v752z"></path></svg>
       {book.title}
     </div>
-    <div className={styles.author} onClick={() => goDetail(book.bookId)}>
+    <div className={styles.author} onClick={() => goDetailPage(book.bookId)}>
       {book.author}
     </div>
     <div className={styles.created}>{displayDate}</div>

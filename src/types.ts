@@ -5,8 +5,6 @@ export interface BookReqType {
   url: string;
 }
 
-// [project] API 응답을 확인하여, BookResType 을 정의한다.
-
 export interface BookResType {
   author: string;
   bookId: number;

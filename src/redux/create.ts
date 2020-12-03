@@ -7,7 +7,6 @@ import createSagaMiddleware from 'redux-saga';
 import rootReducer from './modules/rootReducer';
 import rootSaga from './modules/rootSaga';
 import TokenService from '../services/TokenService';
-// react-persist : 리액트 컴포넌트가 새로고침되더라도 상태를 유지시켜주는 라이브러리, 참고 : <https://levelup.gitconnected.com/persisting-your-react-application-state-with-redux-and-typescript-51e4e66c4e53>
 import { persistStore, persistReducer } from 'redux-persist';
 import storage from 'redux-persist/lib/storage';
 
@@ -32,7 +31,7 @@ const create = () => {
       auth: {
         token,
         loading: false,
-        error: null,
+        error: null,  
       },
     },
     composeWithDevTools(
