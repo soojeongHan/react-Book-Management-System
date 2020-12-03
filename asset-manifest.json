@@ -1,25 +1,25 @@
 {
   "files": {
     "main.css": "/react-Book-Management-System/static/css/main.b34bf6d3.chunk.css",
-    "main.js": "/react-Book-Management-System/static/js/main.2d59f74e.chunk.js",
-    "main.js.map": "/react-Book-Management-System/static/js/main.2d59f74e.chunk.js.map",
+    "main.js": "/react-Book-Management-System/static/js/main.1e02fe1b.chunk.js",
+    "main.js.map": "/react-Book-Management-System/static/js/main.1e02fe1b.chunk.js.map",
     "runtime-main.js": "/react-Book-Management-System/static/js/runtime-main.2acb676f.js",
     "runtime-main.js.map": "/react-Book-Management-System/static/js/runtime-main.2acb676f.js.map",
     "static/css/2.405d60bc.chunk.css": "/react-Book-Management-System/static/css/2.405d60bc.chunk.css",
-    "static/js/2.ce24b3a5.chunk.js": "/react-Book-Management-System/static/js/2.ce24b3a5.chunk.js",
-    "static/js/2.ce24b3a5.chunk.js.map": "/react-Book-Management-System/static/js/2.ce24b3a5.chunk.js.map",
+    "static/js/2.aa6023a1.chunk.js": "/react-Book-Management-System/static/js/2.aa6023a1.chunk.js",
+    "static/js/2.aa6023a1.chunk.js.map": "/react-Book-Management-System/static/js/2.aa6023a1.chunk.js.map",
     "index.html": "/react-Book-Management-System/index.html",
-    "precache-manifest.30c03de1940f766422c7e191dbaab304.js": "/react-Book-Management-System/precache-manifest.30c03de1940f766422c7e191dbaab304.js",
+    "precache-manifest.e5972def5b37803d9bb6a51c1b901997.js": "/react-Book-Management-System/precache-manifest.e5972def5b37803d9bb6a51c1b901997.js",
     "service-worker.js": "/react-Book-Management-System/service-worker.js",
     "static/css/2.405d60bc.chunk.css.map": "/react-Book-Management-System/static/css/2.405d60bc.chunk.css.map",
     "static/css/main.b34bf6d3.chunk.css.map": "/react-Book-Management-System/static/css/main.b34bf6d3.chunk.css.map",
-    "static/js/2.ce24b3a5.chunk.js.LICENSE.txt": "/react-Book-Management-System/static/js/2.ce24b3a5.chunk.js.LICENSE.txt"
+    "static/js/2.aa6023a1.chunk.js.LICENSE.txt": "/react-Book-Management-System/static/js/2.aa6023a1.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.2acb676f.js",
     "static/css/2.405d60bc.chunk.css",
-    "static/js/2.ce24b3a5.chunk.js",
+    "static/js/2.aa6023a1.chunk.js",
     "static/css/main.b34bf6d3.chunk.css",
-    "static/js/main.2d59f74e.chunk.js"
+    "static/js/main.1e02fe1b.chunk.js"
   ]
 }
