@@ -57,7 +57,7 @@ const Signin: React.FC<SigninProps> = ({ loading, login, error }) => {
                   autoComplete="email"
                   name="email"
                   ref={emailRef}
-                  onKeyPress={keyPress}
+                  onPressEnter={keyPress}
                   className={styles.input}
                 />
               </div>
@@ -70,7 +70,7 @@ const Signin: React.FC<SigninProps> = ({ loading, login, error }) => {
                   type="password"
                   autoComplete="current-password"
                   ref={passwordRef}
-                  onKeyPress={keyPress}
+                  onPressEnter={keyPress}
                   className={styles.input}
                 />
               </div>
